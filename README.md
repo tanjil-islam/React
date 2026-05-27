@@ -8,10 +8,12 @@ Welcome to my React learning repository! This project serves as a step-by-step l
 
 Each folder in this repository represents a major milestone in the tutorial series, containing isolated code examples and feature implementations:
 
+* **`elements/`** – Working with JSX elements and rendering building blocks.
 * **`components_props/`** – Functional/Class components, passing data via props, and destructuring props.
 * **`state_lifecycle/`** – Managing dynamic component data with state and handling side effects/lifecycle methods.
 * **`eventhandling_controlrendering/`** – Capturing user interactions, synthetic events, and optimizing/controlling component re-renders.
-* **`elements/`** – Working with JSX elements and rendering building blocks.
+* **`conditional_rendering_lists/`** – Handling conditional UI displays and rendering arrays efficiently using unique `key` props.
+
 
 ---
 
@@ -28,6 +30,11 @@ Each folder in this repository represents a major milestone in the tutorial seri
 ### 3. Event Handling & Render Control
 * Binding and handling events (like clicks, form submissions, and input changes).
 * Understanding what triggers a re-render and learning how to control or minimize unnecessary renders for better performance.
+
+### 4. Conditional Rendering & Lists
+* Using ternary operators, logical `&&`, and `if/else` statements to show or hide UI elements dynamically.
+* Transforming arrays into lists of JSX elements using `.map()`.
+* Understanding the critical role of unique `key` props to help React track item changes, additions, and removals efficiently.
 
 ---
 
