@@ -38,3 +38,9 @@ If you want to clone this repository and run any of the topics locally, follow t
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/tanjil-islam/React.git](https://github.com/tanjil-islam/React.git)
+2. Navigate into the project directory:
+   Bash  cd React
+3. Install dependencies:
+   Bash   npm install
+4. Start the development server:
+   Bash   npm start
