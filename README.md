@@ -13,6 +13,7 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * **`state_lifecycle/`** – Managing dynamic component data with state and handling side effects/lifecycle methods.
 * **`eventhandling_controlrendering/`** – Capturing user interactions, synthetic events, and optimizing/controlling component re-renders.
 * **`conditional_rendering_lists/`** – Handling conditional UI displays and rendering arrays efficiently using unique `key` props.
+* **`form_handling/`** – Managing form inputs using controlled components and unified state handlers.
 
 
 ---
@@ -36,6 +37,10 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * Transforming arrays into lists of JSX elements using `.map()`.
 * Understanding the critical role of unique `key` props to help React track item changes, additions, and removals efficiently.
 
+### 5. Form Handling (Controlled Components)
+* Overriding default DOM behavior to make React state the "single source of truth" for input values.
+* Using a single, dynamic `onChange` handler to manage multi-input form states efficiently.
+* Utilizing `e.preventDefault()` to capture and handle form submissions seamlessly without page refreshes.
 ---
 
 ## 🛠️ How to Run Locally
