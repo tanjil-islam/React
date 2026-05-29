@@ -14,6 +14,7 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * **`eventhandling_controlrendering/`** – Capturing user interactions, synthetic events, and optimizing/controlling component re-renders.
 * **`conditional_rendering_lists/`** – Handling conditional UI displays and rendering arrays efficiently using unique `key` props.
 * **`form_handling/`** – Managing form inputs using controlled components and unified state handlers.
+* **`lifting_state_up/`** – Sharing state between sibling components by moving it to their closest common ancestor.
 
 
 ---
@@ -41,6 +42,10 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * Overriding default DOM behavior to make React state the "single source of truth" for input values.
 * Using a single, dynamic `onChange` handler to manage multi-input form states efficiently.
 * Utilizing `e.preventDefault()` to capture and handle form submissions seamlessly without page refreshes.
+
+* ### 6. Lifting State Up
+* Establishing a single source of truth for sibling components by hoisting state to a common parent.
+* Passing down updater callback functions to allow children to trigger state updates in the parent component.
 ---
 
 ## 🛠️ How to Run Locally
