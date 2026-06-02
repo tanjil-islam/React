@@ -17,6 +17,7 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * **`lifting_state_up/`** – Sharing state between sibling components by moving it to their closest common ancestor.
 * **`composition_vs_inheritance/`** – Building reusable, flexible UI structures using containment (`props.children`) and specialization patterns.
 * **`higher_order_components/`** – Enhancing components and reusing cross-cutting concerns using the HOC functional pattern.
+* * **`render_props/`** – Sharing behavioral state and logic dynamically across components via rendering callback functions.
 
 ---
 
@@ -57,6 +58,11 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * Understanding the functional programming pattern of taking a component as an argument and returning an enhanced component.
 * Creating clean abstractions for cross-cutting concerns like loading indicators, authentication protection, or logging.
 * Properly passing through unrelated props using the spread operator (`...props`) to avoid breaking the wrapped component.
+
+* ### 9. Render Props Pattern
+* Passing a function as a prop to structurally decouple a component's state management from its visual layout.
+* Dynamically injecting state into child layouts at runtime via function callback evaluation.
+* Properly organizing component lifecycle methods inside wrapper containers to prevent memory leaks during events.
 ---
 
 ## 🛠️ How to Run Locally
