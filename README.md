@@ -17,7 +17,7 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * **`lifting_state_up/`** – Sharing state between sibling components by moving it to their closest common ancestor.
 * **`composition_vs_inheritance/`** – Building reusable, flexible UI structures using containment (`props.children`) and specialization patterns.
 * **`higher_order_components/`** – Enhancing components and reusing cross-cutting concerns using the HOC functional pattern.
-* * **`render_props/`** – Sharing behavioral state and logic dynamically across components via rendering callback functions.
+* **`render_props/`** – Sharing behavioral state and logic dynamically across components via rendering callback functions.
 
 ---
 
