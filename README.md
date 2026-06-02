@@ -16,7 +16,7 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * **`form_handling/`** – Managing form inputs using controlled components and unified state handlers.
 * **`lifting_state_up/`** – Sharing state between sibling components by moving it to their closest common ancestor.
 * **`composition_vs_inheritance/`** – Building reusable, flexible UI structures using containment (`props.children`) and specialization patterns.
-
+* **`higher_order_components/`** – Enhancing components and reusing cross-cutting concerns using the HOC functional pattern.
 
 ---
 
@@ -52,6 +52,11 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * Embracing React's powerful composition model over traditional object-oriented inheritance.
 * Utilizing `props.children` to pass arbitrary HTML or child components into generic containers (Containment).
 * Restructuring specific components into specialized variants of generic templates using descriptive props (Specialization).
+
+* ### 8. Higher-Order Components (HOC)
+* Understanding the functional programming pattern of taking a component as an argument and returning an enhanced component.
+* Creating clean abstractions for cross-cutting concerns like loading indicators, authentication protection, or logging.
+* Properly passing through unrelated props using the spread operator (`...props`) to avoid breaking the wrapped component.
 ---
 
 ## 🛠️ How to Run Locally
