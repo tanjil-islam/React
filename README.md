@@ -18,6 +18,7 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * **`composition_vs_inheritance/`** – Building reusable, flexible UI structures using containment (`props.children`) and specialization patterns.
 * **`higher_order_components/`** – Enhancing components and reusing cross-cutting concerns using the HOC functional pattern.
 * **`render_props/`** – Sharing behavioral state and logic dynamically across components via rendering callback functions.
+* **`context_api/`** – Managing global application states and bypassing prop-drilling hierarchies using Context Providers.
 
 ---
 
@@ -63,6 +64,11 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * Passing a function as a prop to structurally decouple a component's state management from its visual layout.
 * Dynamically injecting state into child layouts at runtime via function callback evaluation.
 * Properly organizing component lifecycle methods inside wrapper containers to prevent memory leaks during events.
+
+* ### 10. React Context API
+* Resolving the complex challenge of prop drilling by creating centralized context containers.
+* Utilizing `Context.Provider` components to broadcast reactive state values downstream.
+* Extracting context values dynamically inside functional consumer components using the `useContext` hook.
 ---
 
 ## 🛠️ How to Run Locally
