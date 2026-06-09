@@ -19,6 +19,7 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * **`higher_order_components/`** – Enhancing components and reusing cross-cutting concerns using the HOC functional pattern.
 * **`render_props/`** – Sharing behavioral state and logic dynamically across components via rendering callback functions.
 * **`context_api/`** – Managing global application states and bypassing prop-drilling hierarchies using Context Providers.
+* **`context_api_advanced/`** – Contrasting legacy class-based `contextType` consumption with modern functional `useContext` workflows.
 
 ---
 
@@ -69,6 +70,11 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * Resolving the complex challenge of prop drilling by creating centralized context containers.
 * Utilizing `Context.Provider` components to broadcast reactive state values downstream.
 * Extracting context values dynamically inside functional consumer components using the `useContext` hook.
+
+* ### 11. Context Consumption: class contextType vs useContext
+* Implementing the static `contextType` pattern to fetch context values natively inside legacy React class structures via `this.context`.
+* Leveraging the modern `useContext` hook to eliminate nesting and handle complex configurations.
+* Overcoming the single-context limitation of `contextType` by executing multiple functional hook declarations simultaneously.
 ---
 
 ## 🛠️ How to Run Locally
