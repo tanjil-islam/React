@@ -23,6 +23,7 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * **`useState_hook/`** – Introduction to functional state management using the `useState` hook with a counter example.
 * **`useEffect_hook/`** – Managing functional side effects, component lifecycles, and asynchronous data fetching with `useEffect`.
 * **`performance_hooks/`** – Maximizing rendering performance and memory efficiency using `useMemo` and `useCallback`.
+* **`useRef_hook/`** – Manipulating DOM elements directly and persisting stateful mutability without triggering component layout re-renders.
 
 ---
 
@@ -93,6 +94,11 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * Utilizing `useMemo` to memoize costly mathematical algorithms and prevent heavy processing routines on unrelated state refreshes.
 * Leveraging `useCallback` to enforce function reference identity consistency across component re-renders.
 * Integrating memoized hooks alongside `React.memo` structures to successfully avoid redundant downstream UI re-renders.
+
+* ### 15. React useRef Hook
+* Understanding the structural layout of mutable ref objects and utilizing the `.current` pointer property.
+* Capturing, manipulating, and applying focus styles directly onto standard native HTML DOM elements.
+* Persisting metadata and component metrics globally across multiple render phases without inducing layout cycles.
 ---
 
 ## 🛠️ How to Run Locally
