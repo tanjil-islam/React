@@ -20,6 +20,7 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * **`render_props/`** – Sharing behavioral state and logic dynamically across components via rendering callback functions.
 * **`context_api/`** – Managing global application states and bypassing prop-drilling hierarchies using Context Providers.
 * **`context_api_advanced/`** – Contrasting legacy class-based `contextType` consumption with modern functional `useContext` workflows.
+* **`useState_hook/`** – Introduction to functional state management using the `useState` hook with a counter example.
 
 ---
 
@@ -75,6 +76,11 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * Implementing the static `contextType` pattern to fetch context values natively inside legacy React class structures via `this.context`.
 * Leveraging the modern `useContext` hook to eliminate nesting and handle complex configurations.
 * Overcoming the single-context limitation of `contextType` by executing multiple functional hook declarations simultaneously.
+
+* ### 12. React useState Hook
+* Understanding the core concept of reactive state variables inside functional components.
+* Utilizing array destructuring to declare a state variable and its corresponding setter function (`const [state, setState] = useState()`).
+* Triggering automatic UI re-renders seamlessly by updating state values using setter actions.
 ---
 
 ## 🛠️ How to Run Locally
