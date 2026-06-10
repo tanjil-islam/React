@@ -21,6 +21,7 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * **`context_api/`** – Managing global application states and bypassing prop-drilling hierarchies using Context Providers.
 * **`context_api_advanced/`** – Contrasting legacy class-based `contextType` consumption with modern functional `useContext` workflows.
 * **`useState_hook/`** – Introduction to functional state management using the `useState` hook with a counter example.
+* **`useEffect_hook/`** – Managing functional side effects, component lifecycles, and asynchronous data fetching with `useEffect`.
 
 ---
 
@@ -81,6 +82,11 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * Understanding the core concept of reactive state variables inside functional components.
 * Utilizing array destructuring to declare a state variable and its corresponding setter function (`const [state, setState] = useState()`).
 * Triggering automatic UI re-renders seamlessly by updating state values using setter actions.
+
+* ### 13. React useEffect Hook
+* Understanding the concept of side effects and synchronization in declarative user interfaces.
+* Mastering the dependency array mechanics: running effects on every render, strictly once on mount, or selectively on state updates.
+* Implementing network requests and integrating external asynchronous REST APIs inside the functional component ecosystem.
 ---
 
 ## 🛠️ How to Run Locally
