@@ -22,6 +22,7 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * **`context_api_advanced/`** – Contrasting legacy class-based `contextType` consumption with modern functional `useContext` workflows.
 * **`useState_hook/`** – Introduction to functional state management using the `useState` hook with a counter example.
 * **`useEffect_hook/`** – Managing functional side effects, component lifecycles, and asynchronous data fetching with `useEffect`.
+* **`performance_hooks/`** – Maximizing rendering performance and memory efficiency using `useMemo` and `useCallback`.
 
 ---
 
@@ -87,6 +88,11 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * Understanding the concept of side effects and synchronization in declarative user interfaces.
 * Mastering the dependency array mechanics: running effects on every render, strictly once on mount, or selectively on state updates.
 * Implementing network requests and integrating external asynchronous REST APIs inside the functional component ecosystem.
+
+* ### 14. Performance Optimization Hooks
+* Utilizing `useMemo` to memoize costly mathematical algorithms and prevent heavy processing routines on unrelated state refreshes.
+* Leveraging `useCallback` to enforce function reference identity consistency across component re-renders.
+* Integrating memoized hooks alongside `React.memo` structures to successfully avoid redundant downstream UI re-renders.
 ---
 
 ## 🛠️ How to Run Locally
