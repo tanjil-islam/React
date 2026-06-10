@@ -24,6 +24,7 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * **`useEffect_hook/`** – Managing functional side effects, component lifecycles, and asynchronous data fetching with `useEffect`.
 * **`performance_hooks/`** – Maximizing rendering performance and memory efficiency using `useMemo` and `useCallback`.
 * **`useRef_hook/`** – Manipulating DOM elements directly and persisting stateful mutability without triggering component layout re-renders.
+* **`useReducer_hook/`** – Managing multi-dimensional or conditional state architectures through predictable actions and pure reducer functions.
 
 ---
 
@@ -99,6 +100,11 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * Understanding the structural layout of mutable ref objects and utilizing the `.current` pointer property.
 * Capturing, manipulating, and applying focus styles directly onto standard native HTML DOM elements.
 * Persisting metadata and component metrics globally across multiple render phases without inducing layout cycles.
+
+* ### 16. React useReducer Hook
+* Extracting complex component state logic into an external, pure state machine function (the reducer).
+* Implementing standardized action objects utilizing strict `type` declarations and dynamic `payload` distribution.
+* Embodying one-way data flow constraints by piping state updates exclusively through dispatch invocations.
 ---
 
 ## 🛠️ How to Run Locally
