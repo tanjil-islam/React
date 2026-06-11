@@ -26,6 +26,7 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * **`useRef_hook/`** – Manipulating DOM elements directly and persisting stateful mutability without triggering component layout re-renders.
 * **`useReducer_hook/`** – Managing multi-dimensional or conditional state architectures through predictable actions and pure reducer functions.
 * **`custom_hooks/`** – Extracting complex component states and side-effect synchronization routines into modular, reusable custom functional hooks.
+* **`styling_components/`** – Exploring foundational UI styling techniques including global external stylesheets, camelCase inline styling, and locally scoped CSS Modules.
 
 ---
 
@@ -53,64 +54,69 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * Using a single, dynamic `onChange` handler to manage multi-input form states efficiently.
 * Utilizing `e.preventDefault()` to capture and handle form submissions seamlessly without page refreshes.
 
-* ### 6. Lifting State Up
+### 6. Lifting State Up
 * Establishing a single source of truth for sibling components by hoisting state to a common parent.
 * Passing down updater callback functions to allow children to trigger state updates in the parent component.
 
-* ### 7. Composition vs Inheritance
+### 7. Composition vs Inheritance
 * Embracing React's powerful composition model over traditional object-oriented inheritance.
 * Utilizing `props.children` to pass arbitrary HTML or child components into generic containers (Containment).
 * Restructuring specific components into specialized variants of generic templates using descriptive props (Specialization).
 
-* ### 8. Higher-Order Components (HOC)
+### 8. Higher-Order Components (HOC)
 * Understanding the functional programming pattern of taking a component as an argument and returning an enhanced component.
 * Creating clean abstractions for cross-cutting concerns like loading indicators, authentication protection, or logging.
 * Properly passing through unrelated props using the spread operator (`...props`) to avoid breaking the wrapped component.
 
-* ### 9. Render Props Pattern
+### 9. Render Props Pattern
 * Passing a function as a prop to structurally decouple a component's state management from its visual layout.
 * Dynamically injecting state into child layouts at runtime via function callback evaluation.
 * Properly organizing component lifecycle methods inside wrapper containers to prevent memory leaks during events.
 
-* ### 10. React Context API
+### 10. React Context API
 * Resolving the complex challenge of prop drilling by creating centralized context containers.
 * Utilizing `Context.Provider` components to broadcast reactive state values downstream.
 * Extracting context values dynamically inside functional consumer components using the `useContext` hook.
 
-* ### 11. Context Consumption: class contextType vs useContext
+### 11. Context Consumption: class contextType vs useContext
 * Implementing the static `contextType` pattern to fetch context values natively inside legacy React class structures via `this.context`.
 * Leveraging the modern `useContext` hook to eliminate nesting and handle complex configurations.
 * Overcoming the single-context limitation of `contextType` by executing multiple functional hook declarations simultaneously.
 
-* ### 12. React useState Hook
+### 12. React useState Hook
 * Understanding the core concept of reactive state variables inside functional components.
 * Utilizing array destructuring to declare a state variable and its corresponding setter function (`const [state, setState] = useState()`).
 * Triggering automatic UI re-renders seamlessly by updating state values using setter actions.
 
-* ### 13. React useEffect Hook
+### 13. React useEffect Hook
 * Understanding the concept of side effects and synchronization in declarative user interfaces.
 * Mastering the dependency array mechanics: running effects on every render, strictly once on mount, or selectively on state updates.
 * Implementing network requests and integrating external asynchronous REST APIs inside the functional component ecosystem.
 
-* ### 14. Performance Optimization Hooks
+### 14. Performance Optimization Hooks
 * Utilizing `useMemo` to memoize costly mathematical algorithms and prevent heavy processing routines on unrelated state refreshes.
 * Leveraging `useCallback` to enforce function reference identity consistency across component re-renders.
 * Integrating memoized hooks alongside `React.memo` structures to successfully avoid redundant downstream UI re-renders.
 
-* ### 15. React useRef Hook
+### 15. React useRef Hook
 * Understanding the structural layout of mutable ref objects and utilizing the `.current` pointer property.
 * Capturing, manipulating, and applying focus styles directly onto standard native HTML DOM elements.
 * Persisting metadata and component metrics globally across multiple render phases without inducing layout cycles.
 
-* ### 16. React useReducer Hook
+### 16. React useReducer Hook
 * Extracting complex component state logic into an external, pure state machine function (the reducer).
 * Implementing standardized action objects utilizing strict `type` declarations and dynamic `payload` distribution.
 * Embodying one-way data flow constraints by piping state updates exclusively through dispatch invocations.
 
-* ### 17. React Custom Hooks
+### 17. React Custom Hooks
 * Recognizing and grouping repeated stateful operations into standalone functional units prefixed with the `use` convention.
 * Ensuring absolute state isolation across different component consumers utilizing identical custom hook abstractions.
 * Encapsulating window event listeners and cleanup cycles natively to build cleaner UI presentation layouts.
+
+### 18. Styling React Components
+* Understanding the global scope implications of traditional external style sheets and identifying naming collisions.
+* Constructing dynamic, state-driven inline layout architectures using camelCase JavaScript objects.
+* Implementing CSS Modules (`.module.css`) to guarantee local component class scoping via auto-generated unique hashes.
 ---
 
 ## 🛠️ How to Run Locally
