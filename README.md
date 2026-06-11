@@ -27,6 +27,7 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * **`useReducer_hook/`** – Managing multi-dimensional or conditional state architectures through predictable actions and pure reducer functions.
 * **`custom_hooks/`** – Extracting complex component states and side-effect synchronization routines into modular, reusable custom functional hooks.
 * **`styling_components/`** – Exploring foundational UI styling techniques including global external stylesheets, camelCase inline styling, and locally scoped CSS Modules.
+* **`styled_components_tutorial/`** – Writing component-scoped declarative CSS-in-JS styling tracks using tagged template literals and dynamic prop evaluations.
 
 ---
 
@@ -117,6 +118,11 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * Understanding the global scope implications of traditional external style sheets and identifying naming collisions.
 * Constructing dynamic, state-driven inline layout architectures using camelCase JavaScript objects.
 * Implementing CSS Modules (`.module.css`) to guarantee local component class scoping via auto-generated unique hashes.
+
+### 19. Styled Components (CSS-in-JS)
+* Parsing and deploying micro-scoped styles natively within JavaScript files using tagged template literals.
+* Injecting runtime properties and functional closures inside CSS declarations to yield deeply adaptive user interfaces.
+* Leveraging nested contextual indicators (`&`) to smoothly integrate animations, transitions, and native hover/active interactions.
 ---
 
 ## 🛠️ How to Run Locally
