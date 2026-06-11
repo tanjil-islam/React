@@ -26,6 +26,7 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * **`useRef_hook/`** – Manipulating DOM elements directly and persisting stateful mutability without triggering component layout re-renders.
 * **`useReducer_hook/`** – Managing multi-dimensional or conditional state architectures through predictable actions and pure reducer functions.
 * **`custom_hooks/`** – Extracting complex component states and side-effect synchronization routines into modular, reusable custom functional hooks.
+* **`styling_components/`** – Exploring foundational UI styling techniques including global external stylesheets, camelCase inline styling, and locally scoped CSS Modules.
 
 ---
 
@@ -111,6 +112,11 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * Recognizing and grouping repeated stateful operations into standalone functional units prefixed with the `use` convention.
 * Ensuring absolute state isolation across different component consumers utilizing identical custom hook abstractions.
 * Encapsulating window event listeners and cleanup cycles natively to build cleaner UI presentation layouts.
+
+* ### 18. Styling React Components
+* Understanding the global scope implications of traditional external style sheets and identifying naming collisions.
+* Constructing dynamic, state-driven inline layout architectures using camelCase JavaScript objects.
+* Implementing CSS Modules (`.module.css`) to guarantee local component class scoping via auto-generated unique hashes.
 ---
 
 ## 🛠️ How to Run Locally
