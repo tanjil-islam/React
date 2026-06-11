@@ -25,6 +25,7 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * **`performance_hooks/`** – Maximizing rendering performance and memory efficiency using `useMemo` and `useCallback`.
 * **`useRef_hook/`** – Manipulating DOM elements directly and persisting stateful mutability without triggering component layout re-renders.
 * **`useReducer_hook/`** – Managing multi-dimensional or conditional state architectures through predictable actions and pure reducer functions.
+* **`custom_hooks/`** – Extracting complex component states and side-effect synchronization routines into modular, reusable custom functional hooks.
 
 ---
 
@@ -105,6 +106,11 @@ Each folder in this repository represents a major milestone in the tutorial seri
 * Extracting complex component state logic into an external, pure state machine function (the reducer).
 * Implementing standardized action objects utilizing strict `type` declarations and dynamic `payload` distribution.
 * Embodying one-way data flow constraints by piping state updates exclusively through dispatch invocations.
+
+* ### 17. React Custom Hooks
+* Recognizing and grouping repeated stateful operations into standalone functional units prefixed with the `use` convention.
+* Ensuring absolute state isolation across different component consumers utilizing identical custom hook abstractions.
+* Encapsulating window event listeners and cleanup cycles natively to build cleaner UI presentation layouts.
 ---
 
 ## 🛠️ How to Run Locally
